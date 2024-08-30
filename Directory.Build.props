@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <!-- StyleCop Analyzers configuration -->
+  <!-- This config may be incompatible with Jumpstart since it uses the same file.
+       If we opt for Jumpstart, this may need to be migrated. -->
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <NoWarn>NU1507;NU1008</NoWarn>
+  </PropertyGroup>
+</Project>
