@@ -19,6 +19,11 @@ public sealed partial class Player
 
     public async Task DisposeAsync()
     {
+        if (_isDisposed)
+        {
+            return;
+        }
+
         _isDisposed = true;
         Client.UnObserveProperties();
         RenderContext?.Destroy();
@@ -111,7 +116,7 @@ public sealed partial class Player
     }
 
     public bool IsMediaLoaded()
-        => _isLoaded;
+        => _isLoaded && !_isDisposed;
 
     public async Task ExecuteAfterMediaLoadedAsync(string command)
     {

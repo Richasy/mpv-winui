@@ -250,7 +250,14 @@ public partial class MpvClientNative
         var errorCode = MpvError.Success;
         await Task.Run(() =>
         {
-            errorCode = mpv_command(Handle, nullTermArray);
+            try
+            {
+                errorCode = mpv_command(Handle, nullTermArray);
+            }
+            catch (Exception)
+            {
+                errorCode = MpvError.Generic;
+            }
         });
 
         if (errorCode != MpvError.Success)
