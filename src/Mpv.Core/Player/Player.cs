@@ -30,6 +30,12 @@ public sealed partial class Player
         await Client.DestroyAsync();
     }
 
+    public async Task TerminateAsync()
+    {
+        _isDisposed = true;
+        await Client.DestroyAsync(true);
+    }
+
     public async Task InitializeAsync(InitializeArgument? argument = null)
     {
         if (Client.IsInitialized)
