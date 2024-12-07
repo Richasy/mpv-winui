@@ -18,7 +18,7 @@ public sealed partial class Player
             switch (clientEvent.EventId)
             {
                 case MpvEventId.Shutdown:
-                    DisposeAsync();
+                    _ = DisposeAsync();
                     Destroyed?.Invoke(this, EventArgs.Empty);
                     return;
                 case MpvEventId.LogMessage:
