@@ -1,4 +1,6 @@
-﻿using System.Runtime.InteropServices;
+﻿// Copyright (c) Bili Copilot. All rights reserved.
+
+using System.Runtime.InteropServices;
 
 namespace Mpv.Core.Structs.RenderGL;
 
@@ -7,12 +9,12 @@ namespace Mpv.Core.Structs.RenderGL;
 public struct MpvOpenGLDRMParams
 {
     public int Fd;
-    
+
     public int CrtcId;
-    
+
     public int ConnectorId;
-    
+
     public IntPtr AtomicRequestPtr; //WAT
-    
+
     public int RenderFd;
 }

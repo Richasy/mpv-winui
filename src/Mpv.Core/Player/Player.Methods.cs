@@ -1,9 +1,9 @@
-﻿using Mpv.Core.Args;
+﻿// Copyright (c) Bili Copilot. All rights reserved.
+
+using Mpv.Core.Args;
 using Mpv.Core.Enums.Client;
 using Mpv.Core.Enums.Player;
 using Mpv.Core.Structs.Client;
-using System.Diagnostics;
-using System.Linq;
 using System.Runtime.InteropServices;
 
 namespace Mpv.Core;

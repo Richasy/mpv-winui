@@ -1,4 +1,6 @@
-﻿using System.Reflection;
+﻿// Copyright (c) Bili Copilot. All rights reserved.
+
+using System.Reflection;
 using System.Runtime.InteropServices;
 
 namespace Mpv.Core;

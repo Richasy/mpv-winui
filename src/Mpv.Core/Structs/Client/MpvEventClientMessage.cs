@@ -1,4 +1,6 @@
-﻿using System.Runtime.InteropServices;
+﻿// Copyright (c) Bili Copilot. All rights reserved.
+
+using System.Runtime.InteropServices;
 
 namespace Mpv.Core.Structs.Client;
 
@@ -12,9 +14,9 @@ public struct MpvEventClientMessage
     /// <para>None of the valid items are NULL.</para>
     /// </summary>
     public int NumArgs;
-    
+
     internal IntPtr _argsPtr; //Array of IntPtrs/UTF8 strings
-    
+
     public string[] Args => GetArgs();
 
     private string[] GetArgs()

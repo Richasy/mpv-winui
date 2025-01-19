@@ -1,6 +1,5 @@
-﻿// Copyright (c) Richasy. All rights reserved.
+﻿// Copyright (c) Bili Copilot. All rights reserved.
 
-using System;
 using System.Runtime.InteropServices;
 
 namespace Mpv.Core.Structs.Client;

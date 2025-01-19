@@ -1,4 +1,6 @@
-﻿using System.Runtime.InteropServices;
+﻿// Copyright (c) Bili Copilot. All rights reserved.
+
+using System.Runtime.InteropServices;
 
 namespace Mpv.Core.Structs.StreamCB;
 
@@ -13,19 +15,19 @@ public struct MpvStreamCBInfo
     /// </summary>
     /// <remarks>The user sets this in the mpv_stream_cb_open_ro_fn callback.</remarks>
     public IntPtr Cookie;
-    
+
     /// <summary>
     /// <para>Callbacks set by the user in the mpv_stream_cb_open_ro_fn callback. Some</para>
     /// <para>of them are optional, and can be left unset.</para>
     /// </summary>
     /// <remarks>The following callbacks are mandatory: read_fn, close_fn</remarks>
     public IntPtr ReadFn;
-    
+
     public IntPtr SeekFn;
-    
+
     public IntPtr SizeFn;
-    
+
     public IntPtr CloseFn;
-    
+
     public IntPtr CancelFn;
 }

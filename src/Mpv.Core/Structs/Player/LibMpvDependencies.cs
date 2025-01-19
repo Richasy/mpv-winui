@@ -1,4 +1,6 @@
-﻿namespace Mpv.Core.Structs.Player;
+﻿// Copyright (c) Bili Copilot. All rights reserved.
+
+namespace Mpv.Core.Structs.Player;
 
 /// <summary>
 /// The version of the service on which the MPV depends.

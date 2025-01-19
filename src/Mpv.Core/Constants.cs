@@ -1,4 +1,4 @@
-﻿// Copyright (c) Richasy. All rights reserved.
+﻿// Copyright (c) Bili Copilot. All rights reserved.
 
 namespace Mpv.Core;
 

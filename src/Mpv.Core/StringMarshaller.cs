@@ -1,5 +1,7 @@
-﻿using System.Runtime.InteropServices.Marshalling;
+﻿// Copyright (c) Bili Copilot. All rights reserved.
+
 using System.Runtime.InteropServices;
+using System.Runtime.InteropServices.Marshalling;
 
 namespace Mpv.Core;
 

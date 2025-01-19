@@ -1,6 +1,4 @@
-﻿// Copyright (c) Richasy. All rights reserved.
-
-using System;
+﻿// Copyright (c) Bili Copilot. All rights reserved.
 
 namespace Mpv.Core.Enums.Render;
 

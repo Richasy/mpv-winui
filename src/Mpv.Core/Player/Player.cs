@@ -1,4 +1,4 @@
-﻿// Copyright (c) Richasy. All rights reserved.
+﻿// Copyright (c) Bili Copilot. All rights reserved.
 
 using Mpv.Core.Args;
 using Mpv.Core.Interop;

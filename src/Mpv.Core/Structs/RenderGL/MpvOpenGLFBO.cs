@@ -1,4 +1,6 @@
-﻿using System.Runtime.InteropServices;
+﻿// Copyright (c) Bili Copilot. All rights reserved.
+
+using System.Runtime.InteropServices;
 
 namespace Mpv.Core.Structs.RenderGL;
 
@@ -12,19 +14,19 @@ public struct MpvOpenGLFBO
     /// <para>value is 0, this refers to the OpenGL default framebuffer.</para>
     /// </summary>
     public int Fbo;
-    
+
     /// <summary>
     /// <para>Valid dimensions. This must refer to the size of the framebuffer. This</para>
     /// <para>must always be set.</para>
     /// </summary>
     public int W;
-    
+
     /// <summary>
     /// <para>Valid dimensions. This must refer to the size of the framebuffer. This</para>
     /// <para>must always be set.</para>
     /// </summary>
     public int H;
-    
+
     /// <summary>
     /// <para>Underlying texture internal format (e.g. GL_RGBA8), or 0 if unknown. If</para>
     /// <para>this is the default framebuffer, this can be an equivalent.</para>

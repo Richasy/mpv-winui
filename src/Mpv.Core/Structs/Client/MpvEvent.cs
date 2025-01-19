@@ -1,5 +1,7 @@
-﻿using System.Runtime.InteropServices;
+﻿// Copyright (c) Bili Copilot. All rights reserved.
+
 using Mpv.Core.Enums.Client;
+using System.Runtime.InteropServices;
 
 namespace Mpv.Core.Structs.Client;
 

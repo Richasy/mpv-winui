@@ -1,4 +1,6 @@
-﻿using System.Linq;
+﻿// Copyright (c) Bili Copilot. All rights reserved.
+
+using System.Linq;
 using System.Runtime.InteropServices;
 
 namespace Mpv.Core.Structs.Client;

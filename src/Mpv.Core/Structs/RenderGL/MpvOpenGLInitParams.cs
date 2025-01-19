@@ -1,4 +1,6 @@
-﻿using System.Runtime.InteropServices;
+﻿// Copyright (c) Bili Copilot. All rights reserved.
+
+using System.Runtime.InteropServices;
 
 namespace Mpv.Core.Structs.RenderGL;
 

@@ -1,8 +1,10 @@
-﻿using System.Threading;
+﻿// Copyright (c) Bili Copilot. All rights reserved.
+
 using Mpv.Core.Args;
 using Mpv.Core.Enums.Player;
 using Mpv.Core.Interop;
 using Mpv.Core.Structs.Player;
+using System.Threading;
 
 namespace Mpv.Core;
 

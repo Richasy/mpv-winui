@@ -1,4 +1,6 @@
-﻿using System.Runtime.InteropServices;
+﻿// Copyright (c) Bili Copilot. All rights reserved.
+
+using System.Runtime.InteropServices;
 
 namespace Mpv.Core.Structs.Client;
 
@@ -6,7 +8,7 @@ namespace Mpv.Core.Structs.Client;
 public struct MpvEventCommand
 {
     internal IntPtr _resultPtr;
-    
+
     /// <summary>
     /// <para>Result data of the command. Note that success/failure is signaled</para>
     /// <para>separately via mpv_event.error. This field is only for result data</para>

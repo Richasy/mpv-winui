@@ -1,4 +1,6 @@
-﻿using Mpv.Core.Enums.Client;
+﻿// Copyright (c) Bili Copilot. All rights reserved.
+
+using Mpv.Core.Enums.Client;
 using Mpv.Core.Structs.Client;
 using System.Runtime.InteropServices;
 

@@ -1,4 +1,6 @@
-﻿namespace Mpv.Core.Structs.Client;
+﻿// Copyright (c) Bili Copilot. All rights reserved.
+
+namespace Mpv.Core.Structs.Client;
 
 public struct MpvHandle
 {
