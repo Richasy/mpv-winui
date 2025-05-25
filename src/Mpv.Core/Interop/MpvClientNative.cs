@@ -244,15 +244,12 @@ public partial class MpvClientNative
 
     public async Task ExecuteAsync(string[] command)
     {
-        var nullTermArray = new string[command.Length + 1];
-        Array.Copy(command, nullTermArray, command.Length);
-        nullTermArray[^1] = null;
         var errorCode = MpvError.Success;
         await Task.Run(() =>
         {
             try
             {
-                errorCode = mpv_command(Handle, nullTermArray);
+                errorCode = mpv_command_string(Handle, string.Join(' ', command));
             }
             catch (Exception)
             {
